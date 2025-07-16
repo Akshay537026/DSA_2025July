@@ -2,9 +2,6 @@ public class KadaneAlgorithm {
     public static void main(String[] args) {
         int[] arr={2, 3, -8, 7, -1, 2, 3};
         System.out.println("Maximum element can we get from subarray is " +maxSubarraySum(arr));
-
-
-
     }
 
     static int maxSubarraySum(int[] arr) {
@@ -18,6 +15,6 @@ public class KadaneAlgorithm {
         }
 
         return maxSoFar;
-    };
+    }
 
 }
